@@ -7,4 +7,4 @@ map("n", "<leader>w", "<cmd>w<cr>", { desc = "Save" })
 map("n", "<leader>q", "<C-W>c", { desc = "Delete window" })
 map("n", "|", "<C-W>v", { desc = "Split window right" })
 map("n", "<C-l>", "<C-w>w", { desc = "Go to right window"})
-
+map('v', '<leader>y', require('osc52').copy_visual, {remap = true})

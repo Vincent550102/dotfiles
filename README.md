@@ -38,6 +38,6 @@ https://www.lazyvim.org/
 ## tmux
 
 ```
-tmux source ~/.config/.tmux.conf
+tmux source ~/.tmux.conf
 After in tmux. <prefix>+I 
 ```

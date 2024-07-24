@@ -26,7 +26,7 @@ chmod u+x nvim.appimage && sudo mv ./nvim.appimage /usr/bin/nvim
 
 # setup .config
 git clone https://github.com/Vincent550102/dotfiles ~/.config
-mv ~/.config/.tmux.config ~
+mv ~/.config/.tmux.conf ~
 mv ~/.config/.inputrc ~
 rm -rf ~/.config/.git
 ```
